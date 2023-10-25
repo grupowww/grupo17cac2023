@@ -1,0 +1,50 @@
+header{
+    background-color: rgb(235, 211, 162);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body{
+    background-color: beige;
+    
+}
+footer{
+    background-color: rgb(235, 211, 162);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 40vw;
+    height: auto;
+}
+.menu{
+    text-decoration: none;
+    padding-right: 2vw;
+    font-size: 2vw;
+    color: rgb(45, 13, 74);
+}
+
+section{
+    background-color: rgb(135, 203, 169);
+    padding: auto;
+    
+}
+
+.pie{
+    text-decoration: none;
+    padding-right: 2vw;
+    font-size: 2vw;
+    
+}
+
+.autor{
+    text-align: center;
+    color: #3b2d87;
+    margin-top: 15px;
+  }
+h1{
+    color: blue;
+    font-size: 40px;
+}
