@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="../imagenes/Muela20_T-icono.ico">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>FORMULARIO DE ATENCION</title>
+    <link rel="stylesheet" href="formulario.css">
+
+</head>
+<body>
+    <header><!--Encabezado-->
+        <!-- Comentar Cntrl + k + c -->
+        <!-- Descomentar Cntrl + k + u -->
+        <div>
+            <img class="logo" src="../imagenes/Logo_Muela.png" alt="">
+        </div>
+        <div>
+            <nav class="header-linea">
+                <a class="menu" href="index.html"> Inicio</a>
+                <a class="menu" href="galeria.html"> Galeria</a>
+                <a class="menu" href="Formulario.html">Formulario </a>
+                <a class="menu" href="https://www.google.com" target="_blank"> Google </a><!--Se puede hacer que se abra otra ventana al hacer clic -->
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <Div class="contenedor">
+            <form action="" onsubmit="return validarformulario()">
+                <h1>ATENDETE CON NOSOTROS</h1>
+                <p>completa el siguiente formulario</p>
+                 
+               
+                <label for="nombre">Ingresa tu nombre</label>
+                <input type="text" name="Nombre" id="nombre">
+               
+               
+               
+                <label for="apellido">Ingresa tu Apellido</label>
+                <input type="text" name="Apellido" id="apellido">
+               
+               
+               
+                <label for="edad">Ingresa tu edad</label>
+                <input type="text" name="Edad" id="edad">
+               
+               
+                <label for="nroDeDocumento">Ingresa tu numero de dni</label>
+                <input type="text" name="nroDeDocumento" id="NumeroDeDocumento">
+               
+    
+    
+               
+                <label for="nrocelular">Ingrese su numero de celular</label>
+                <input type="text" name="nrocelular" id="NroCelular">    
+               
+    
+    
+                <label for="correo">Ingrese su correo electronico</label>
+                <input type="text" name="correo" id="Correo">    
+    
+    
+                <label for="fechanac">Ingresa tu fecha de nacimiento</label>
+                <input type="date" name="fechanac" id="FechaNac">    
+    
+    
+                    <label for="genro">Indique con cual genero se identifica</label>    
+                    <select name="Genero">
+                        <option value="Masculino">Masculino</option>
+                 
+                <input type="submit" value="Enviar" class="envio">
+            </form>
+            <script src="formulario.js"></script>
+        </Div>
+    
+
+    </main>
+    <footer><!-Pie de página --> 
+        <div>
+            <img class="pie" src="../Imagenes/Contacto-T.png" width="250" height="150" alt="Info de contacto">
+        </div>
+        <div>
+            <nav class="header-linea">
+                   
+                <a class="pie" href="https://www.instagram.com"><img src="../Imagenes/Ícono_Instagram-T.png" width="95" height="95" alt="redes"> </a>
+                <a class="pie" href="https://www.facebook.com"> <img src="../Imagenes/Ícono_Facebook-T.png" width="90" height="90" alt="redes">
+                </a>
+                <a class="pie" href="https://api.whatsapp.com"><img src="../Imagenes/Icono_Whatsapp_T.png" width="80" height="80" alt="redes"> </a>         
+            </nav>
+        </div>
+        
+        
+               
+    </footer>   
+      <div class="autor"> 
+        <p>Diseñado por Grupo 17<p>
+    
+      </div>
+    </body>
+    
+    </html>
